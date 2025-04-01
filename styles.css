@@ -1,1 +1,94 @@
 /*styles file for the landing page*/
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 150px 100px 150px;
+    row-gap: 50px;
+}
+
+.headerList {
+    display: flex;
+    gap: 15px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.headerPanel {
+    display: flex;
+}
+
+#heroText {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#heroSubText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882E6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.squarePics {
+    height: 100px;
+    width: 100px;
+}
+
+.picsPanel {
+    
+}
+
+#info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: auto;
+}
+
+.pics {
+    display: flex;
+    justify-content: center;
+}
+
+.imageCard {
+
+}
+
+.quotePanel {
+
+}
+
+.signPanel {
+    background-color: #3882E6;
+}
+
+.signer {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}
