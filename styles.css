@@ -48,47 +48,76 @@ a {
 button {
     background-color: #3882E6;
     color: #E5E7EB;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 5px 20px;
 }
 
 .squarePics {
     height: 100px;
     width: 100px;
+    border-radius: 8px;
 }
 
 .picsPanel {
-    
+    padding: 25px 150px 100px 150px;
 }
 
 #info {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: auto;
+    text-align: center;
 }
 
 .pics {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .imageCard {
+    width: 100px;
+}
 
+.imageCard p {
+    margin-top: 0%;
 }
 
 .quotePanel {
-
+    padding: 50px 250px 25px 250px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
+.quotePanel p {
+    text-align: right;
+}
 .signPanel {
     background-color: #3882E6;
+    margin: 50px 150px;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.signer {
+.signPanel p {
+    color: #E5E7EB;    
+}
 
+.signPanel button {
+    align-self: center;
+    border: 1px white solid;
+    font-weight: bold;
+}
+#actionCall {
+    color: #F9FAF8;   
 }
 
 .footer {
     background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+    color: #F9FAF8;
 }
